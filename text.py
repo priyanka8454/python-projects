@@ -31,6 +31,11 @@ time_1 = time()
 
 testinput = input("Enter: ")
 time_2 = time()
+# Calculate and print typing speed and mistakes
+print('Speed:', speed_time(time_1, time_2, testinput), "w/sec")  # w/sec is words per second
+print("Error:", mistake(test1,testinput))
+
+
 
 # Calculate and print typing speed and mistakes
 print('Speed:', speed_time(time_1, time_2, testinput), "w/sec")  # w/sec is words per second
